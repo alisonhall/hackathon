@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		201EFF3A1C0618A800DA6E9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201EFF391C0618A800DA6E9F /* AppDelegate.swift */; };
+		201EFF3C1C0618A800DA6E9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201EFF3B1C0618A800DA6E9F /* ViewController.swift */; };
+		201EFF3F1C0618A800DA6E9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201EFF3D1C0618A800DA6E9F /* Main.storyboard */; };
+		201EFF411C0618A800DA6E9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 201EFF401C0618A800DA6E9F /* Assets.xcassets */; };
+		201EFF441C0618A800DA6E9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 201EFF421C0618A800DA6E9F /* LaunchScreen.storyboard */; };
+		201EFF4F1C0618A800DA6E9F /* ArchitechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201EFF4E1C0618A800DA6E9F /* ArchitechTests.swift */; };
+		201EFF5A1C0618A800DA6E9F /* ArchitechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 201EFF591C0618A800DA6E9F /* ArchitechUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		201EFF4B1C0618A800DA6E9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 201EFF2E1C0618A700DA6E9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 201EFF351C0618A800DA6E9F;
+			remoteInfo = Architech;
+		};
+		201EFF561C0618A800DA6E9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 201EFF2E1C0618A700DA6E9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 201EFF351C0618A800DA6E9F;
+			remoteInfo = Architech;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		201EFF361C0618A800DA6E9F /* Architech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Architech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		201EFF391C0618A800DA6E9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		201EFF3B1C0618A800DA6E9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		201EFF3E1C0618A800DA6E9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		201EFF401C0618A800DA6E9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		201EFF431C0618A800DA6E9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		201EFF451C0618A800DA6E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		201EFF4A1C0618A800DA6E9F /* ArchitechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchitechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		201EFF4E1C0618A800DA6E9F /* ArchitechTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchitechTests.swift; sourceTree = "<group>"; };
+		201EFF501C0618A800DA6E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		201EFF551C0618A800DA6E9F /* ArchitechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArchitechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		201EFF591C0618A800DA6E9F /* ArchitechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchitechUITests.swift; sourceTree = "<group>"; };
+		201EFF5B1C0618A800DA6E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		201EFF331C0618A800DA6E9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201EFF471C0618A800DA6E9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201EFF521C0618A800DA6E9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		201EFF2D1C0618A700DA6E9F = {
+			isa = PBXGroup;
+			children = (
+				201EFF381C0618A800DA6E9F /* Architech */,
+				201EFF4D1C0618A800DA6E9F /* ArchitechTests */,
+				201EFF581C0618A800DA6E9F /* ArchitechUITests */,
+				201EFF371C0618A800DA6E9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		201EFF371C0618A800DA6E9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				201EFF361C0618A800DA6E9F /* Architech.app */,
+				201EFF4A1C0618A800DA6E9F /* ArchitechTests.xctest */,
+				201EFF551C0618A800DA6E9F /* ArchitechUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		201EFF381C0618A800DA6E9F /* Architech */ = {
+			isa = PBXGroup;
+			children = (
+				201EFF391C0618A800DA6E9F /* AppDelegate.swift */,
+				201EFF3B1C0618A800DA6E9F /* ViewController.swift */,
+				201EFF3D1C0618A800DA6E9F /* Main.storyboard */,
+				201EFF401C0618A800DA6E9F /* Assets.xcassets */,
+				201EFF421C0618A800DA6E9F /* LaunchScreen.storyboard */,
+				201EFF451C0618A800DA6E9F /* Info.plist */,
+			);
+			path = Architech;
+			sourceTree = "<group>";
+		};
+		201EFF4D1C0618A800DA6E9F /* ArchitechTests */ = {
+			isa = PBXGroup;
+			children = (
+				201EFF4E1C0618A800DA6E9F /* ArchitechTests.swift */,
+				201EFF501C0618A800DA6E9F /* Info.plist */,
+			);
+			path = ArchitechTests;
+			sourceTree = "<group>";
+		};
+		201EFF581C0618A800DA6E9F /* ArchitechUITests */ = {
+			isa = PBXGroup;
+			children = (
+				201EFF591C0618A800DA6E9F /* ArchitechUITests.swift */,
+				201EFF5B1C0618A800DA6E9F /* Info.plist */,
+			);
+			path = ArchitechUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		201EFF351C0618A800DA6E9F /* Architech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 201EFF5E1C0618A800DA6E9F /* Build configuration list for PBXNativeTarget "Architech" */;
+			buildPhases = (
+				201EFF321C0618A800DA6E9F /* Sources */,
+				201EFF331C0618A800DA6E9F /* Frameworks */,
+				201EFF341C0618A800DA6E9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Architech;
+			productName = Architech;
+			productReference = 201EFF361C0618A800DA6E9F /* Architech.app */;
+			productType = "com.apple.product-type.application";
+		};
+		201EFF491C0618A800DA6E9F /* ArchitechTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 201EFF611C0618A800DA6E9F /* Build configuration list for PBXNativeTarget "ArchitechTests" */;
+			buildPhases = (
+				201EFF461C0618A800DA6E9F /* Sources */,
+				201EFF471C0618A800DA6E9F /* Frameworks */,
+				201EFF481C0618A800DA6E9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				201EFF4C1C0618A800DA6E9F /* PBXTargetDependency */,
+			);
+			name = ArchitechTests;
+			productName = ArchitechTests;
+			productReference = 201EFF4A1C0618A800DA6E9F /* ArchitechTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		201EFF541C0618A800DA6E9F /* ArchitechUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 201EFF641C0618A800DA6E9F /* Build configuration list for PBXNativeTarget "ArchitechUITests" */;
+			buildPhases = (
+				201EFF511C0618A800DA6E9F /* Sources */,
+				201EFF521C0618A800DA6E9F /* Frameworks */,
+				201EFF531C0618A800DA6E9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				201EFF571C0618A800DA6E9F /* PBXTargetDependency */,
+			);
+			name = ArchitechUITests;
+			productName = ArchitechUITests;
+			productReference = 201EFF551C0618A800DA6E9F /* ArchitechUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		201EFF2E1C0618A700DA6E9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = com.dtosh;
+				TargetAttributes = {
+					201EFF351C0618A800DA6E9F = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					201EFF491C0618A800DA6E9F = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 201EFF351C0618A800DA6E9F;
+					};
+					201EFF541C0618A800DA6E9F = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 201EFF351C0618A800DA6E9F;
+					};
+				};
+			};
+			buildConfigurationList = 201EFF311C0618A700DA6E9F /* Build configuration list for PBXProject "Architech" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 201EFF2D1C0618A700DA6E9F;
+			productRefGroup = 201EFF371C0618A800DA6E9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				201EFF351C0618A800DA6E9F /* Architech */,
+				201EFF491C0618A800DA6E9F /* ArchitechTests */,
+				201EFF541C0618A800DA6E9F /* ArchitechUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		201EFF341C0618A800DA6E9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201EFF441C0618A800DA6E9F /* LaunchScreen.storyboard in Resources */,
+				201EFF411C0618A800DA6E9F /* Assets.xcassets in Resources */,
+				201EFF3F1C0618A800DA6E9F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201EFF481C0618A800DA6E9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201EFF531C0618A800DA6E9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		201EFF321C0618A800DA6E9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201EFF3C1C0618A800DA6E9F /* ViewController.swift in Sources */,
+				201EFF3A1C0618A800DA6E9F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201EFF461C0618A800DA6E9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201EFF4F1C0618A800DA6E9F /* ArchitechTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		201EFF511C0618A800DA6E9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				201EFF5A1C0618A800DA6E9F /* ArchitechUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		201EFF4C1C0618A800DA6E9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 201EFF351C0618A800DA6E9F /* Architech */;
+			targetProxy = 201EFF4B1C0618A800DA6E9F /* PBXContainerItemProxy */;
+		};
+		201EFF571C0618A800DA6E9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 201EFF351C0618A800DA6E9F /* Architech */;
+			targetProxy = 201EFF561C0618A800DA6E9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		201EFF3D1C0618A800DA6E9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				201EFF3E1C0618A800DA6E9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		201EFF421C0618A800DA6E9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				201EFF431C0618A800DA6E9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		201EFF5C1C0618A800DA6E9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		201EFF5D1C0618A800DA6E9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		201EFF5F1C0618A800DA6E9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Architech/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dtosh.Architech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		201EFF601C0618A800DA6E9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Architech/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dtosh.Architech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		201EFF621C0618A800DA6E9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ArchitechTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dtosh.ArchitechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Architech.app/Architech";
+			};
+			name = Debug;
+		};
+		201EFF631C0618A800DA6E9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ArchitechTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dtosh.ArchitechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Architech.app/Architech";
+			};
+			name = Release;
+		};
+		201EFF651C0618A800DA6E9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ArchitechUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dtosh.ArchitechUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Architech;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		201EFF661C0618A800DA6E9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ArchitechUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dtosh.ArchitechUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Architech;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		201EFF311C0618A700DA6E9F /* Build configuration list for PBXProject "Architech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201EFF5C1C0618A800DA6E9F /* Debug */,
+				201EFF5D1C0618A800DA6E9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		201EFF5E1C0618A800DA6E9F /* Build configuration list for PBXNativeTarget "Architech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201EFF5F1C0618A800DA6E9F /* Debug */,
+				201EFF601C0618A800DA6E9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		201EFF611C0618A800DA6E9F /* Build configuration list for PBXNativeTarget "ArchitechTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201EFF621C0618A800DA6E9F /* Debug */,
+				201EFF631C0618A800DA6E9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		201EFF641C0618A800DA6E9F /* Build configuration list for PBXNativeTarget "ArchitechUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				201EFF651C0618A800DA6E9F /* Debug */,
+				201EFF661C0618A800DA6E9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 201EFF2E1C0618A700DA6E9F /* Project object */;
+}
