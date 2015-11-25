@@ -18,18 +18,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5HU-1v-dm5">
-                                <rect key="frame" x="63" y="308" width="248" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Iv-wq-j25">
+                                <rect key="frame" x="208" y="308" width="0.0" height="0.0"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G8P-wG-jiz">
-                                <rect key="frame" x="125" y="378" width="126" height="71"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HQn-al-wur">
+                                <rect key="frame" x="25" y="290" width="324" height="36"/>
                                 <animations/>
-                                <state key="normal" title="Search Employees"/>
+                                <state key="normal" title="Search" image="Search bar">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
-                                    <segue destination="c6h-2O-K3e" kind="modal" id="bsW-dp-WBX"/>
+                                    <segue destination="bTd-TX-WMe" kind="modal" id="Z02-C9-GH0"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -37,12 +40,56 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                    <connections>
-                        <outlet property="searchBox" destination="5HU-1v-dm5" id="Hru-48-Cs1"/>
-                    </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="-447.5" y="-518.5"/>
+            <point key="canvasLocation" x="-603.5" y="-610.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pGe-Bf-coQ">
+            <objects>
+                <viewController id="bTd-TX-WMe" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="s8b-nd-vmA"/>
+                        <viewControllerLayoutGuide type="bottom" id="H98-K3-Ul5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rTs-Gk-8at">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Empty Search" translatesAutoresizingMaskIntoConstraints="NO" id="ijh-lc-cNK">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="68h-Ko-t4h">
+                                <rect key="frame" x="0.0" y="225" width="375" height="99"/>
+                                <animations/>
+                                <connections>
+                                    <segue destination="d5U-Je-4it" kind="modal" id="YP8-VY-n82"/>
+                                </connections>
+                            </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mxk-wr-Azn">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <animations/>
+                                <items>
+                                    <navigationItem title="Results" id="ai6-Yp-1f0"/>
+                                </items>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ho0-09-MRN">
+                                <rect key="frame" x="0.0" y="324" width="375" height="102"/>
+                                <animations/>
+                                <connections>
+                                    <segue destination="wIP-Yc-mJb" kind="modal" id="rO1-q6-40h"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dx3-4x-RmP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-116.5" y="-604.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Krw-hR-LPJ">
@@ -56,14 +103,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m12-Co-a0b">
-                                <rect key="frame" x="0.0" y="255" width="375" height="100"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Search People" translatesAutoresizingMaskIntoConstraints="NO" id="otL-gC-Snf">
+                                <rect key="frame" x="0.0" y="5" width="375" height="662"/>
                                 <animations/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="d5U-Je-4it" kind="modal" id="9iI-Jj-dKr"/>
-                                </connections>
-                            </button>
+                            </imageView>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ov4-pE-QjO">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <animations/>
@@ -71,17 +114,24 @@
                                     <navigationItem title="Employee Results" id="nlk-33-EZR">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="nSw-tH-ZiC">
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="modal" modalTransitionStyle="crossDissolve" id="vMH-sC-FhV"/>
+                                                <segue destination="BYZ-38-t0r" kind="modal" modalTransitionStyle="crossDissolve" id="mJV-CR-Fd3"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Item" id="Uaa-VD-FqG">
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="modal" modalTransitionStyle="crossDissolve" id="goZ-2O-JOp"/>
+                                                <segue destination="BYZ-38-t0r" kind="modal" modalTransitionStyle="crossDissolve" id="f0h-Xx-8N3"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m12-Co-a0b">
+                                <rect key="frame" x="0.0" y="223" width="375" height="100"/>
+                                <animations/>
+                                <connections>
+                                    <segue destination="d5U-Je-4it" kind="modal" id="9iI-Jj-dKr"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -90,7 +140,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y4c-Cs-2Q9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="283.5" y="-610.5"/>
+            <point key="canvasLocation" x="370.5" y="-660.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gB3-Kv-oid">
@@ -104,14 +154,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xUW-g8-SdI">
-                                <rect key="frame" x="0.0" y="295" width="375" height="92"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Bio" translatesAutoresizingMaskIntoConstraints="NO" id="wKE-1L-z94">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <animations/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="wIP-Yc-mJb" kind="modal" id="AEf-1b-OR7"/>
-                                </connections>
-                            </button>
+                            </imageView>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="19x-r1-RL6">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <animations/>
@@ -124,12 +170,19 @@
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Item" id="SrW-Ws-QeC">
                                             <connections>
-                                                <segue destination="kN1-Av-3vf" kind="modal" modalTransitionStyle="crossDissolve" id="k2F-LH-BkO"/>
+                                                <segue destination="BYZ-38-t0r" kind="modal" modalTransitionStyle="crossDissolve" id="5wV-eY-8Ef"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xUW-g8-SdI">
+                                <rect key="frame" x="0.0" y="516" width="375" height="92"/>
+                                <animations/>
+                                <connections>
+                                    <segue destination="wIP-Yc-mJb" kind="modal" id="AEf-1b-OR7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -138,7 +191,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dKf-by-vbU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="946.5" y="-708.5"/>
+            <point key="canvasLocation" x="960.5" y="-680.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="LXB-KZ-PcC">
@@ -152,18 +205,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZFd-QB-YnX">
-                                <rect key="frame" x="58" y="276" width="265" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bkj-2s-YGx">
+                                <rect key="frame" x="25" y="316" width="324" height="36"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gqz-cW-zTB">
-                                <rect key="frame" x="133" y="350" width="108" height="30"/>
-                                <animations/>
-                                <state key="normal" title="Search Projects"/>
+                                <state key="normal" title="Search" image="Search bar">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
-                                    <segue destination="Tyc-Ue-4LQ" kind="modal" id="l3Z-8a-Eiu"/>
+                                    <segue destination="bTd-TX-WMe" kind="modal" id="00w-3M-R8b"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -174,7 +223,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O9J-sj-P4W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-718.5" y="650.5"/>
+            <point key="canvasLocation" x="-648.5" y="421.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="isP-em-AXa">
@@ -206,10 +255,13 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJF-nE-Bqe">
-                                <rect key="frame" x="0.0" y="321" width="375" height="103"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Search Projects" translatesAutoresizingMaskIntoConstraints="NO" id="icc-1z-TAJ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <animations/>
-                                <state key="normal" title="Button"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJF-nE-Bqe">
+                                <rect key="frame" x="0.0" y="225" width="375" height="103"/>
+                                <animations/>
                                 <connections>
                                     <segue destination="wIP-Yc-mJb" kind="modal" id="Utd-qN-PLx"/>
                                 </connections>
@@ -222,7 +274,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oxI-Xu-ndf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-44.5" y="531.5"/>
+            <point key="canvasLocation" x="23.5" y="605.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yvm-ed-SOi">
@@ -236,12 +288,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5nu-XC-gmK">
-                                <rect key="frame" x="0.0" y="336" width="375" height="89"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Projects" translatesAutoresizingMaskIntoConstraints="NO" id="2h9-eY-gHt">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <animations/>
-                                <state key="normal" title="Button"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5nu-XC-gmK">
+                                <rect key="frame" x="0.0" y="376" width="375" height="89"/>
+                                <animations/>
                                 <connections>
-                                    <segue destination="d5U-Je-4it" kind="modal" id="3kd-h7-M3v"/>
+                                    <segue destination="d5U-Je-4it" kind="modal" id="j96-Ge-c9y"/>
                                 </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9VS-tF-Py4">
@@ -256,7 +311,7 @@
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Item" id="sAr-go-CWu">
                                             <connections>
-                                                <segue destination="kN1-Av-3vf" kind="modal" modalTransitionStyle="crossDissolve" id="KrR-Lr-cl9"/>
+                                                <segue destination="kN1-Av-3vf" kind="modal" id="oV0-8A-wXa"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -270,14 +325,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iVh-Vl-ccG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="789.5" y="443.5"/>
+            <point key="canvasLocation" x="833.5" y="438.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Bio" width="750" height="1334"/>
+        <image name="Empty Search" width="750" height="1334"/>
+        <image name="Projects" width="750" height="1334"/>
+        <image name="Search People" width="750" height="1334"/>
+        <image name="Search Projects" width="750" height="1334"/>
+        <image name="Search bar" width="718" height="88"/>
+    </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="k2F-LH-BkO"/>
-        <segue reference="9iI-Jj-dKr"/>
+        <segue reference="f0h-Xx-8N3"/>
         <segue reference="bDL-UF-1wo"/>
-        <segue reference="vMH-sC-FhV"/>
-        <segue reference="AEf-1b-OR7"/>
+        <segue reference="9iI-Jj-dKr"/>
+        <segue reference="oV0-8A-wXa"/>
+        <segue reference="Utd-qN-PLx"/>
+        <segue reference="00w-3M-R8b"/>
     </inferredMetricsTieBreakers>
 </document>
