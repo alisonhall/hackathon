@@ -18,14 +18,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Open - without search" translatesAutoresizingMaskIntoConstraints="NO" id="6tg-iS-8Hl">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Open - without search-2" translatesAutoresizingMaskIntoConstraints="NO" id="6tg-iS-8Hl">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <animations/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hXy-GN-kMa">
-                                <rect key="frame" x="10" y="341" width="354" height="47"/>
+                                <rect key="frame" x="10" y="408" width="354" height="44"/>
                                 <animations/>
-                                <state key="normal" title="Search" image="Search bar">
+                                <state key="normal" title="Search" image="Search bar-1">
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -86,7 +86,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dx3-4x-RmP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-116.5" y="-604.5"/>
+            <point key="canvasLocation" x="43.5" y="-104.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Krw-hR-LPJ">
@@ -137,7 +137,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y4c-Cs-2Q9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="350.5" y="-1004.5"/>
+            <point key="canvasLocation" x="598.5" y="-536.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gB3-Kv-oid">
@@ -188,7 +188,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dKf-by-vbU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="960.5" y="-680.5"/>
+            <point key="canvasLocation" x="1147.5" y="-484.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="LXB-KZ-PcC">
@@ -202,14 +202,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Open - without search" translatesAutoresizingMaskIntoConstraints="NO" id="xMg-Py-sht">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Open - without search-2" translatesAutoresizingMaskIntoConstraints="NO" id="xMg-Py-sht">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <animations/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bkj-2s-YGx">
-                                <rect key="frame" x="10" y="341" width="354" height="47"/>
+                                <rect key="frame" x="10" y="406" width="354" height="44"/>
                                 <animations/>
-                                <state key="normal" title="Search" image="Search bar">
+                                <state key="normal" title="Search" image="Search bar-1">
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -275,7 +275,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oxI-Xu-ndf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="16.5" y="476.5"/>
+            <point key="canvasLocation" x="580.5" y="468.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yvm-ed-SOi">
@@ -326,23 +326,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iVh-Vl-ccG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="871.5" y="412.5"/>
+            <point key="canvasLocation" x="1147.5" y="308.5"/>
         </scene>
     </scenes>
     <resources>
         <image name="Bio" width="750" height="1334"/>
         <image name="Empty Search-2" width="750" height="1334"/>
-        <image name="Open - without search" width="750" height="1334"/>
+        <image name="Open - without search-2" width="750" height="1334"/>
         <image name="Projects" width="750" height="1334"/>
         <image name="Search People-1" width="750" height="1334"/>
         <image name="Search Projects-1" width="750" height="1334"/>
-        <image name="Search bar" width="718" height="88"/>
+        <image name="Search bar-1" width="718" height="88"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="mJV-CR-Fd3"/>
         <segue reference="YP8-VY-n82"/>
-        <segue reference="00w-3M-R8b"/>
-        <segue reference="oV0-8A-wXa"/>
+        <segue reference="VPD-Ri-bsb"/>
         <segue reference="rO1-q6-40h"/>
+        <segue reference="OE5-Pg-XP0"/>
     </inferredMetricsTieBreakers>
 </document>
