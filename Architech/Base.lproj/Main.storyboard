@@ -18,17 +18,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G8P-wG-jiz">
-                                <rect key="frame" x="133" y="374" width="109" height="71"/>
-                                <animations/>
-                                <state key="normal" title="Search"/>
-                            </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5HU-1v-dm5">
                                 <rect key="frame" x="63" y="308" width="248" height="30"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G8P-wG-jiz">
+                                <rect key="frame" x="125" y="378" width="126" height="71"/>
+                                <animations/>
+                                <state key="normal" title="Search Employees"/>
+                                <connections>
+                                    <segue destination="c6h-2O-K3e" kind="modal" id="bsW-dp-WBX"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -39,7 +42,7 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="180.5" y="353.5"/>
+            <point key="canvasLocation" x="-447.5" y="-518.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Krw-hR-LPJ">
@@ -57,14 +60,25 @@
                                 <rect key="frame" x="0.0" y="255" width="375" height="100"/>
                                 <animations/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="d5U-Je-4it" kind="modal" id="9iI-Jj-dKr"/>
+                                </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ov4-pE-QjO">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <animations/>
                                 <items>
-                                    <navigationItem title="Title" id="nlk-33-EZR">
-                                        <barButtonItem key="leftBarButtonItem" title="Item" id="nSw-tH-ZiC"/>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" id="Uaa-VD-FqG"/>
+                                    <navigationItem title="Employee Results" id="nlk-33-EZR">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="nSw-tH-ZiC">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="modal" id="vMH-sC-FhV"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" id="Uaa-VD-FqG">
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="modal" id="goZ-2O-JOp"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -76,7 +90,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y4c-Cs-2Q9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="605.5" y="-25.5"/>
+            <point key="canvasLocation" x="89.5" y="-496.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gB3-Kv-oid">
@@ -94,14 +108,25 @@
                                 <rect key="frame" x="0.0" y="295" width="375" height="92"/>
                                 <animations/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="wIP-Yc-mJb" kind="modal" id="AEf-1b-OR7"/>
+                                </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="19x-r1-RL6">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <animations/>
                                 <items>
-                                    <navigationItem title="Title" id="cni-Ge-c3D">
-                                        <barButtonItem key="leftBarButtonItem" title="Item" id="ILJ-IO-Q7l"/>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" id="SrW-Ws-QeC"/>
+                                    <navigationItem title="Chris Evans" id="cni-Ge-c3D">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="ILJ-IO-Q7l">
+                                            <connections>
+                                                <segue destination="c6h-2O-K3e" kind="modal" id="bDL-UF-1wo"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" id="SrW-Ws-QeC">
+                                            <connections>
+                                                <segue destination="kN1-Av-3vf" kind="modal" id="k2F-LH-BkO"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -113,7 +138,43 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dKf-by-vbU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1022.5" y="-25.5"/>
+            <point key="canvasLocation" x="566.5" y="-496.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="LXB-KZ-PcC">
+            <objects>
+                <viewController id="kN1-Av-3vf" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kyi-0s-kVK"/>
+                        <viewControllerLayoutGuide type="bottom" id="nzg-g2-g34"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bq9-zt-Yhn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZFd-QB-YnX">
+                                <rect key="frame" x="58" y="276" width="265" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gqz-cW-zTB">
+                                <rect key="frame" x="133" y="350" width="108" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Search Projects"/>
+                                <connections>
+                                    <segue destination="Tyc-Ue-4LQ" kind="modal" id="l3Z-8a-Eiu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O9J-sj-P4W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-527.5" y="531.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="isP-em-AXa">
@@ -127,21 +188,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJF-nE-Bqe">
-                                <rect key="frame" x="0.0" y="319" width="375" height="103"/>
-                                <animations/>
-                                <state key="normal" title="Button"/>
-                            </button>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kir-g0-D4k">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <animations/>
                                 <items>
-                                    <navigationItem title="Title" id="EnH-hz-rIL">
-                                        <barButtonItem key="leftBarButtonItem" title="Item" id="N5b-tH-hYU"/>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" id="fqU-9V-OpL"/>
+                                    <navigationItem title="Project Results" id="EnH-hz-rIL">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="N5b-tH-hYU">
+                                            <connections>
+                                                <segue destination="kN1-Av-3vf" kind="modal" id="KbQ-SB-n9W"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" id="fqU-9V-OpL">
+                                            <connections>
+                                                <segue destination="kN1-Av-3vf" kind="modal" id="nWe-Wm-sbF"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJF-nE-Bqe">
+                                <rect key="frame" x="0.0" y="321" width="375" height="103"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="wIP-Yc-mJb" kind="modal" id="Utd-qN-PLx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -150,7 +222,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oxI-Xu-ndf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="605.5" y="710.5"/>
+            <point key="canvasLocation" x="-44.5" y="531.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yvm-ed-SOi">
@@ -168,14 +240,25 @@
                                 <rect key="frame" x="0.0" y="336" width="375" height="89"/>
                                 <animations/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="d5U-Je-4it" kind="modal" id="3kd-h7-M3v"/>
+                                </connections>
                             </button>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9VS-tF-Py4">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <animations/>
                                 <items>
-                                    <navigationItem title="Title" id="pgp-hg-tso">
-                                        <barButtonItem key="leftBarButtonItem" title="Item" id="XE3-EO-Jxf"/>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" id="sAr-go-CWu"/>
+                                    <navigationItem title="Project One" id="pgp-hg-tso">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="XE3-EO-Jxf">
+                                            <connections>
+                                                <segue destination="c6h-2O-K3e" kind="modal" id="RI2-6n-3HS"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Item" id="sAr-go-CWu">
+                                            <connections>
+                                                <segue destination="kN1-Av-3vf" kind="modal" id="KrR-Lr-cl9"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -187,7 +270,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iVh-Vl-ccG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1022.5" y="710.5"/>
+            <point key="canvasLocation" x="601.5" y="531.5"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="KrR-Lr-cl9"/>
+        <segue reference="Utd-qN-PLx"/>
+        <segue reference="RI2-6n-3HS"/>
+        <segue reference="3kd-h7-M3v"/>
+        <segue reference="vMH-sC-FhV"/>
+    </inferredMetricsTieBreakers>
 </document>
