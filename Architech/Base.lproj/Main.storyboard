@@ -71,12 +71,12 @@
                                     <navigationItem title="Employee Results" id="nlk-33-EZR">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="nSw-tH-ZiC">
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="modal" id="vMH-sC-FhV"/>
+                                                <segue destination="BYZ-38-t0r" kind="modal" modalTransitionStyle="crossDissolve" id="vMH-sC-FhV"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Item" id="Uaa-VD-FqG">
                                             <connections>
-                                                <segue destination="BYZ-38-t0r" kind="modal" id="goZ-2O-JOp"/>
+                                                <segue destination="BYZ-38-t0r" kind="modal" modalTransitionStyle="crossDissolve" id="goZ-2O-JOp"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -90,7 +90,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y4c-Cs-2Q9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="89.5" y="-496.5"/>
+            <point key="canvasLocation" x="283.5" y="-610.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gB3-Kv-oid">
@@ -119,12 +119,12 @@
                                     <navigationItem title="Chris Evans" id="cni-Ge-c3D">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="ILJ-IO-Q7l">
                                             <connections>
-                                                <segue destination="c6h-2O-K3e" kind="modal" id="bDL-UF-1wo"/>
+                                                <segue destination="c6h-2O-K3e" kind="modal" modalTransitionStyle="crossDissolve" id="bDL-UF-1wo"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Item" id="SrW-Ws-QeC">
                                             <connections>
-                                                <segue destination="kN1-Av-3vf" kind="modal" id="k2F-LH-BkO"/>
+                                                <segue destination="kN1-Av-3vf" kind="modal" modalTransitionStyle="crossDissolve" id="k2F-LH-BkO"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -138,7 +138,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dKf-by-vbU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="566.5" y="-496.5"/>
+            <point key="canvasLocation" x="946.5" y="-708.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="LXB-KZ-PcC">
@@ -174,7 +174,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O9J-sj-P4W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-527.5" y="531.5"/>
+            <point key="canvasLocation" x="-718.5" y="650.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="isP-em-AXa">
@@ -195,12 +195,12 @@
                                     <navigationItem title="Project Results" id="EnH-hz-rIL">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="N5b-tH-hYU">
                                             <connections>
-                                                <segue destination="kN1-Av-3vf" kind="modal" id="KbQ-SB-n9W"/>
+                                                <segue destination="kN1-Av-3vf" kind="modal" modalTransitionStyle="crossDissolve" id="KbQ-SB-n9W"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Item" id="fqU-9V-OpL">
                                             <connections>
-                                                <segue destination="kN1-Av-3vf" kind="modal" id="nWe-Wm-sbF"/>
+                                                <segue destination="kN1-Av-3vf" kind="modal" modalTransitionStyle="crossDissolve" id="nWe-Wm-sbF"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -251,12 +251,12 @@
                                     <navigationItem title="Project One" id="pgp-hg-tso">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="XE3-EO-Jxf">
                                             <connections>
-                                                <segue destination="c6h-2O-K3e" kind="modal" id="RI2-6n-3HS"/>
+                                                <segue destination="c6h-2O-K3e" kind="modal" modalTransitionStyle="crossDissolve" id="RI2-6n-3HS"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" title="Item" id="sAr-go-CWu">
                                             <connections>
-                                                <segue destination="kN1-Av-3vf" kind="modal" id="KrR-Lr-cl9"/>
+                                                <segue destination="kN1-Av-3vf" kind="modal" modalTransitionStyle="crossDissolve" id="KrR-Lr-cl9"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -270,14 +270,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iVh-Vl-ccG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="601.5" y="531.5"/>
+            <point key="canvasLocation" x="789.5" y="443.5"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="KrR-Lr-cl9"/>
-        <segue reference="Utd-qN-PLx"/>
-        <segue reference="RI2-6n-3HS"/>
-        <segue reference="3kd-h7-M3v"/>
+        <segue reference="k2F-LH-BkO"/>
+        <segue reference="9iI-Jj-dKr"/>
+        <segue reference="bDL-UF-1wo"/>
         <segue reference="vMH-sC-FhV"/>
+        <segue reference="AEf-1b-OR7"/>
     </inferredMetricsTieBreakers>
 </document>
