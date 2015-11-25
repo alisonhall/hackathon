@@ -18,21 +18,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Iv-wq-j25">
-                                <rect key="frame" x="208" y="308" width="0.0" height="0.0"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Open - without search" translatesAutoresizingMaskIntoConstraints="NO" id="6tg-iS-8Hl">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HQn-al-wur">
-                                <rect key="frame" x="25" y="290" width="324" height="36"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hXy-GN-kMa">
+                                <rect key="frame" x="10" y="341" width="354" height="47"/>
                                 <animations/>
                                 <state key="normal" title="Search" image="Search bar">
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="bTd-TX-WMe" kind="modal" id="Z02-C9-GH0"/>
+                                    <segue destination="bTd-TX-WMe" kind="modal" id="VPD-Ri-bsb"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -56,7 +53,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Empty Search" translatesAutoresizingMaskIntoConstraints="NO" id="ijh-lc-cNK">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Empty Search-1" translatesAutoresizingMaskIntoConstraints="NO" id="ijh-lc-cNK">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <animations/>
                             </imageView>
@@ -103,7 +100,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Search People" translatesAutoresizingMaskIntoConstraints="NO" id="otL-gC-Snf">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Search People-1" translatesAutoresizingMaskIntoConstraints="NO" id="otL-gC-Snf">
                                 <rect key="frame" x="0.0" y="5" width="375" height="662"/>
                                 <animations/>
                             </imageView>
@@ -111,13 +108,13 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <animations/>
                                 <items>
-                                    <navigationItem title="Employee Results" id="nlk-33-EZR">
+                                    <navigationItem title="Results" id="nlk-33-EZR">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="nSw-tH-ZiC">
                                             <connections>
                                                 <segue destination="BYZ-38-t0r" kind="modal" modalTransitionStyle="crossDissolve" id="mJV-CR-Fd3"/>
                                             </connections>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" id="Uaa-VD-FqG">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="Uaa-VD-FqG">
                                             <connections>
                                                 <segue destination="BYZ-38-t0r" kind="modal" modalTransitionStyle="crossDissolve" id="f0h-Xx-8N3"/>
                                             </connections>
@@ -140,7 +137,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y4c-Cs-2Q9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="370.5" y="-660.5"/>
+            <point key="canvasLocation" x="350.5" y="-1004.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gB3-Kv-oid">
@@ -168,7 +165,7 @@
                                                 <segue destination="c6h-2O-K3e" kind="modal" modalTransitionStyle="crossDissolve" id="bDL-UF-1wo"/>
                                             </connections>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" id="SrW-Ws-QeC">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="SrW-Ws-QeC">
                                             <connections>
                                                 <segue destination="BYZ-38-t0r" kind="modal" modalTransitionStyle="crossDissolve" id="5wV-eY-8Ef"/>
                                             </connections>
@@ -205,8 +202,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Open - without search" translatesAutoresizingMaskIntoConstraints="NO" id="xMg-Py-sht">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <animations/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bkj-2s-YGx">
-                                <rect key="frame" x="25" y="316" width="324" height="36"/>
+                                <rect key="frame" x="10" y="341" width="354" height="47"/>
                                 <animations/>
                                 <state key="normal" title="Search" image="Search bar">
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
@@ -237,11 +238,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Search Projects-1" translatesAutoresizingMaskIntoConstraints="NO" id="icc-1z-TAJ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJF-nE-Bqe">
+                                <rect key="frame" x="0.0" y="225" width="375" height="103"/>
+                                <animations/>
+                                <connections>
+                                    <segue destination="wIP-Yc-mJb" kind="modal" id="Utd-qN-PLx"/>
+                                </connections>
+                            </button>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kir-g0-D4k">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <animations/>
                                 <items>
-                                    <navigationItem title="Project Results" id="EnH-hz-rIL">
+                                    <navigationItem title="Results" id="EnH-hz-rIL">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="N5b-tH-hYU">
                                             <connections>
                                                 <segue destination="kN1-Av-3vf" kind="modal" modalTransitionStyle="crossDissolve" id="KbQ-SB-n9W"/>
@@ -255,17 +267,6 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Search Projects" translatesAutoresizingMaskIntoConstraints="NO" id="icc-1z-TAJ">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <animations/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJF-nE-Bqe">
-                                <rect key="frame" x="0.0" y="225" width="375" height="103"/>
-                                <animations/>
-                                <connections>
-                                    <segue destination="wIP-Yc-mJb" kind="modal" id="Utd-qN-PLx"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -303,13 +304,13 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <animations/>
                                 <items>
-                                    <navigationItem title="Project One" id="pgp-hg-tso">
+                                    <navigationItem title="Mercatus" id="pgp-hg-tso">
                                         <barButtonItem key="leftBarButtonItem" title="Back" id="XE3-EO-Jxf">
                                             <connections>
                                                 <segue destination="c6h-2O-K3e" kind="modal" modalTransitionStyle="crossDissolve" id="RI2-6n-3HS"/>
                                             </connections>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" id="sAr-go-CWu">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="sAr-go-CWu">
                                             <connections>
                                                 <segue destination="kN1-Av-3vf" kind="modal" id="oV0-8A-wXa"/>
                                             </connections>
@@ -330,18 +331,19 @@
     </scenes>
     <resources>
         <image name="Bio" width="750" height="1334"/>
-        <image name="Empty Search" width="750" height="1334"/>
+        <image name="Empty Search-1" width="750" height="1334"/>
+        <image name="Open - without search" width="750" height="1334"/>
         <image name="Projects" width="750" height="1334"/>
-        <image name="Search People" width="750" height="1334"/>
-        <image name="Search Projects" width="750" height="1334"/>
+        <image name="Search People-1" width="750" height="1334"/>
+        <image name="Search Projects-1" width="750" height="1334"/>
         <image name="Search bar" width="718" height="88"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="f0h-Xx-8N3"/>
-        <segue reference="bDL-UF-1wo"/>
-        <segue reference="9iI-Jj-dKr"/>
-        <segue reference="oV0-8A-wXa"/>
+        <segue reference="mJV-CR-Fd3"/>
+        <segue reference="RI2-6n-3HS"/>
         <segue reference="Utd-qN-PLx"/>
+        <segue reference="nWe-Wm-sbF"/>
         <segue reference="00w-3M-R8b"/>
+        <segue reference="9iI-Jj-dKr"/>
     </inferredMetricsTieBreakers>
 </document>
