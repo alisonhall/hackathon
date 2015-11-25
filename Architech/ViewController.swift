@@ -9,11 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    // search field
+    @IBOutlet weak var searchBox: UITextField!
+    // search button
+    @IBOutlet weak var searchButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
