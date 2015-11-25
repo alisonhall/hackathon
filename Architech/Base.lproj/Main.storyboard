@@ -53,7 +53,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Empty Search-1" translatesAutoresizingMaskIntoConstraints="NO" id="ijh-lc-cNK">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Empty Search-2" translatesAutoresizingMaskIntoConstraints="NO" id="ijh-lc-cNK">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <animations/>
                             </imageView>
@@ -109,7 +109,7 @@
                                 <animations/>
                                 <items>
                                     <navigationItem title="Results" id="nlk-33-EZR">
-                                        <barButtonItem key="leftBarButtonItem" title="Back" id="nSw-tH-ZiC">
+                                        <barButtonItem key="leftBarButtonItem" title="&lt; Back" id="nSw-tH-ZiC">
                                             <connections>
                                                 <segue destination="BYZ-38-t0r" kind="modal" modalTransitionStyle="crossDissolve" id="mJV-CR-Fd3"/>
                                             </connections>
@@ -160,7 +160,7 @@
                                 <animations/>
                                 <items>
                                     <navigationItem title="Chris Evans" id="cni-Ge-c3D">
-                                        <barButtonItem key="leftBarButtonItem" title="Back" id="ILJ-IO-Q7l">
+                                        <barButtonItem key="leftBarButtonItem" title="&lt; Back" id="ILJ-IO-Q7l">
                                             <connections>
                                                 <segue destination="c6h-2O-K3e" kind="modal" modalTransitionStyle="crossDissolve" id="bDL-UF-1wo"/>
                                             </connections>
@@ -254,14 +254,14 @@
                                 <animations/>
                                 <items>
                                     <navigationItem title="Results" id="EnH-hz-rIL">
-                                        <barButtonItem key="leftBarButtonItem" title="Back" id="N5b-tH-hYU">
+                                        <barButtonItem key="leftBarButtonItem" title="&lt; Back" id="N5b-tH-hYU">
                                             <connections>
-                                                <segue destination="kN1-Av-3vf" kind="modal" modalTransitionStyle="crossDissolve" id="KbQ-SB-n9W"/>
+                                                <segue destination="kN1-Av-3vf" kind="modal" modalTransitionStyle="crossDissolve" id="LPA-gG-Jtp"/>
                                             </connections>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" title="Item" id="fqU-9V-OpL">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="search" id="fqU-9V-OpL">
                                             <connections>
-                                                <segue destination="kN1-Av-3vf" kind="modal" modalTransitionStyle="crossDissolve" id="nWe-Wm-sbF"/>
+                                                <segue destination="kN1-Av-3vf" kind="modal" id="OE5-Pg-XP0"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -275,7 +275,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oxI-Xu-ndf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="23.5" y="605.5"/>
+            <point key="canvasLocation" x="16.5" y="476.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="yvm-ed-SOi">
@@ -305,9 +305,9 @@
                                 <animations/>
                                 <items>
                                     <navigationItem title="Mercatus" id="pgp-hg-tso">
-                                        <barButtonItem key="leftBarButtonItem" title="Back" id="XE3-EO-Jxf">
+                                        <barButtonItem key="leftBarButtonItem" title="&lt; Back" id="XE3-EO-Jxf">
                                             <connections>
-                                                <segue destination="c6h-2O-K3e" kind="modal" modalTransitionStyle="crossDissolve" id="RI2-6n-3HS"/>
+                                                <segue destination="Tyc-Ue-4LQ" kind="modal" modalTransitionStyle="crossDissolve" id="CMp-TT-Ehj"/>
                                             </connections>
                                         </barButtonItem>
                                         <barButtonItem key="rightBarButtonItem" systemItem="search" id="sAr-go-CWu">
@@ -326,12 +326,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iVh-Vl-ccG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="833.5" y="438.5"/>
+            <point key="canvasLocation" x="871.5" y="412.5"/>
         </scene>
     </scenes>
     <resources>
         <image name="Bio" width="750" height="1334"/>
-        <image name="Empty Search-1" width="750" height="1334"/>
+        <image name="Empty Search-2" width="750" height="1334"/>
         <image name="Open - without search" width="750" height="1334"/>
         <image name="Projects" width="750" height="1334"/>
         <image name="Search People-1" width="750" height="1334"/>
@@ -340,10 +340,9 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="mJV-CR-Fd3"/>
-        <segue reference="RI2-6n-3HS"/>
-        <segue reference="Utd-qN-PLx"/>
-        <segue reference="nWe-Wm-sbF"/>
+        <segue reference="YP8-VY-n82"/>
         <segue reference="00w-3M-R8b"/>
-        <segue reference="9iI-Jj-dKr"/>
+        <segue reference="oV0-8A-wXa"/>
+        <segue reference="rO1-q6-40h"/>
     </inferredMetricsTieBreakers>
 </document>
